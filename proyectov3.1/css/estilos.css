@@ -1,0 +1,340 @@
+html, body{
+	background:	#fff;
+	padding:0 0;
+	margin:0 0; 
+	font-family:'Open Sans', sans-serif;
+
+	
+}
+
+@font-face {
+	font-family: 'Dosis-Medium';
+	src: url(../fonts/Dosis-Medium.ttf);
+}
+
+ul li {
+	
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+}
+body a{
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+
+h1,h2,h3,h4,h5,h6{
+	padding:0 0;
+	margin:0 0;
+}
+p{
+	padding:0 0;
+	margin:0 0;
+}
+ul{
+	padding:0 0;
+	margin:0 0;	
+}
+
+@font-face {
+   font-family: 'Dosis-Regular';
+   src: url(../fonts/Dosis-Regular.ttf) format('truetype');
+}
+@font-face {
+   font-family: 'Dosis-Medium';
+   src: url(../fonts/Dosis-Medium.ttf) format('truetype');
+}
+@font-face {
+   font-family: 'Dosis-Bold';
+   src: url(../fonts/Dosis-Bold.ttf) format('truetype');
+}
+
+/*---------------------------------------------*/
+
+.logo{
+	margin: 1.5em 0px;
+}
+
+nav{
+	margin: 2.5em 0px;
+	position: relative;
+
+	float: right;}
+
+
+nav .navegador li a{
+	text-decoration: none;
+	padding: 0px 1em;
+	color: #000;
+	font-size: 1.5em;	
+	font-family: "Dosis-Medium";
+}
+
+nav .navegador li a:hover{
+	text-decoration:none;
+	color: #94c11f;
+}
+
+nav .navegador li .active{
+	color: #94c11f;
+
+}
+
+.footer{
+	padding: 2em 0px;
+	text-align: center;
+	color:#666666;
+	font-size: 1.1em;
+}
+
+h2{
+	font-family:'Dosis-Medium';
+}
+
+.registro h2{
+	text-align: center;
+	color:#94C11F;
+	font-size:2.5em;
+}
+
+.contenedor{
+	padding: 2em 1em;
+}
+
+.botones{
+	text-align: center;
+}
+
+.banner{
+	background: transparent url("../images/banner.jpg") no-repeat scroll 0px / cover;
+	min-height: 600px;
+}
+.contenedor-banner{
+	padding: 10em 0;
+	width: 46%;
+	float: right;	
+}
+
+.banner h2{
+	padding-bottom: 1.5em;
+	font-size:3.5em;
+	color: white;
+}
+
+.banner p{
+	color: white;
+}
+
+.banner a{
+	color: #FFF;
+	padding: 0.6em 3em;
+	font-size: 1.1em;
+	display: inline-block;
+	margin-top: 2.5em;
+	border: 2px solid #3598DB;
+	border-radius: 5px;
+	background: #3598DB none repeat scroll 0% 0%;
+}
+
+.banner a:hover{
+	text-decoration: none;
+	color: #FFF;
+	padding: 0.6em 3em;
+	font-size: 1.1em;
+	display: inline-block;
+	margin-top: 2.5em;
+	border: 2px solid white;
+	border-radius: 5px;
+	background: transparent;
+}
+
+
+.acerca-de{
+	min-height: 500px;
+	padding: 6em 0px;
+}
+
+.acerca-de h2{
+	font-size: 3em;
+	padding-bottom: 1.5em;
+}
+
+.acerca-de p{
+	padding-bottom: 1em;
+}
+
+.servicios{
+	background: transparent url("../images/banner-servicios.jpg") no-repeat scroll 0px / cover;
+	min-height: 600px;
+	text-align: center;
+}
+
+.style-servicios span{
+	font-size: 3em;
+	color: #fff;
+	padding-top: 2.5em;
+}
+
+.style-servicios h2{
+	font.font-size: 2em;
+	color: #fff;
+	padding: 2em 0;
+}
+
+.style-servicios p{
+	padding: 0 1em;
+	color: #fff;
+}
+
+.style-servicios a{
+	color: #FFF;
+	padding: 0.6em 3em;
+	font-size: 1.1em;
+	display: inline-block;
+	margin-top: 2.5em;
+	border: 2px solid #3598DB;
+	border-radius: 5px;
+	background: #3598DB none repeat scroll 0% 0%;
+}
+
+.style-servicios a:hover{
+	text-decoration: none;
+	color: #FFF;
+	padding: 0.6em 3em;
+	font-size: 1.1em;
+	display: inline-block;
+	margin-top: 2.5em;
+	border: 2px solid white;
+	border-radius: 5px;
+	background: transparent;
+}
+
+.contacto{
+	min-height: 500px;
+	padding: 6em 0px;
+}
+
+.contacto h2{
+	padding-bottom: 1em;
+	font-size: 3em;
+}
+.login{
+	padding: 2em 0;
+	width: 30%;
+	text-align: center;
+}
+
+.login h2{
+	padding: 1em 0;
+	color: #94C11F; 
+}
+
+/*-- Tienda Virtual -- */
+
+
+.item-pro {
+	margin: 1% 0px 3% 2.6%;
+box-shadow: 0px 0px 5px #AAA;
+}
+
+.item-pro a{
+	color:#777;
+	font-style: none;
+}
+
+.item-pro a:hover{
+	color: #4CB1CA;
+	background: #4CB1CA;
+	text-decoration: none;
+}
+
+.item-pro img{
+	padding: 0.6em;
+	width: 100%;
+}
+
+.item-pro h2, h3{
+	padding: 0.6em;
+}
+
+.item-pro h3{
+	color:#94c11f;
+}
+
+.item-pro h3:hover{
+	color:#4CB1CA;
+}
+
+.item-simple img{
+	width: 90%;
+}
+
+.item-simple h2{
+	color:#94c11f
+}
+
+.item-simple h3{
+	padding: 0.6em;
+	font-weight: bold;
+	color:#4CB1CA;
+}
+
+.item-simple h4{
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.item-simple p{
+	padding: 0.6em;
+}
+
+.item-simple label{
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.item-simple input{
+	font-size: 1.3em;
+	font-weight: bold;
+	width: 30%;
+}
+
+.item-simple a{
+	color: #FFF;
+	padding: 0.6em 3em;
+	font-size: 1.1em;
+	display: inline-block;
+	margin-top: 2.5em;
+	border: 2px solid #3598DB;
+	border-radius: 5px;
+	background: #3598DB none repeat scroll 0% 0%;
+}
+
+.item-simple a:hover{
+	text-decoration: none;
+	color: #FFF;
+	padding: 0.6em 3em;
+	font-size: 1.1em;
+	display: inline-block;
+	margin-top: 2.5em;
+	border: 2px solid #1283CE;
+	border-radius: 5px;
+	background: #1283CE;
+}
+
+
+/*-- Resultado CRUD -- */
+
+.resultado{
+	padding-bottom: 2em;
+	text-align: center;
+	font-size: 1em;
+
+}
+
+.resultado p{
+	font-weight: bold;
+}
